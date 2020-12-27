@@ -8,7 +8,7 @@ const TOKEN = process.env.TOKEN
 const CHANNEL_ID = '-1001384658469'
 const TRENDING_URL = 'https://m.weibo.cn/api/container/getIndex?containerid=106003type%3D25%26t%3D3%26disable_hot%3D1%26filter_type%3Drealtimehot'
 
-const bot = new Telegraf(TOKEN)
+const bot = new Telegraf(1403474719:AAEk9ZoCkCYl3dI5ezo7aXRXB-32ef0WUpk)
 
 async function saveRawJson (data) {
   const date = dayjs().format('YYYY-MM-DD')
